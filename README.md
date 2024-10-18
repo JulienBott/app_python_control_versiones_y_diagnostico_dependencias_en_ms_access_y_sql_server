@@ -17,7 +17,7 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
           * variables públicas MS Access VBA de los distintos módulos de la base de datos
         
           * objetos SQL Server (tablas, stored procedures o views)
-          
+            
       * __Conceptos__
           * Objetos ya existentes en las 2 BBDD's
           * En BBDD_01 pero no en BBDD_02
@@ -46,7 +46,8 @@ __MS Access__:
   * deshabilitar la macro AutoExec si existiese (cambiadole el nombre de forma temporal por ejemplo)
 
 __SQL Server__: 
-La conexión esta configurada por Windows Authentication. Para cambiarla, ir a la variable conn_str_sql_server (fila 39) del módulo APP_CONTROL_VERSIONES_2_GENERAL_POO
+  * La conexión esta configurada por Windows Authentication.
+    Para cambiarla, ir a la variable __conn_str_sql_server__ (fila 39) del módulo APP_CONTROL_VERSIONES_2_GENERAL_POO
 
 
 ## __REQUISITOS LIBRERIAS PYTHON__
@@ -62,14 +63,11 @@ La conexión esta configurada por Windows Authentication. Para cambiarla, ir a l
 
 El proyecto se organiza en 3 módulos .py (ver carpeta codigo):
 
-  * __APP_CONTROL_VERSIONES_1_GUI__
-    Contiene la interfaz de usuario con sus distintos widgets y rutinas asociadas
+  * __APP_CONTROL_VERSIONES_1_GUI__: contiene la interfaz de usuario con sus distintos widgets y rutinas asociadas
 
-  * __APP_CONTROL_VERSIONES_2_GENERAL_POO__
-    Contiene variables globales que se usan en los 2 otros módulos y también clases propias creadas para el proyecto
+  * __APP_CONTROL_VERSIONES_2_GENERAL_POO__: contiene variables globales que se usan en los 2 otros módulos y también clases propias creadas para el proyecto
 
-  * __APP_CONTROL_VERSIONES_3_BACK_END__
-    Contiene todas las rutinas back-end del proyecto
+  * __APP_CONTROL_VERSIONES_3_BACK_END__: contiene todas las rutinas back-end del proyecto
 
 El app necesita 3 templates para su correcto funcionamiento que se han de integrar en el ejecutable cuando se compile (ver carpeta templates):
   * __ico_app__: fichero .ico
@@ -78,9 +76,11 @@ El app necesita 3 templates para su correcto funcionamiento que se han de integr
       
 ## FASE DEL PROYECTO (actualizado a 2024-10-18)
 
-Los puntos 3 y 4 que figuran en la descripción estan en desarollo (espero tenerlos a lo largo de la semana que viene)
+Los puntos 3 y 4 que figuran en la descripción estan en desarrollo (espero tenerlos a lo largo de la semana que viene)
 
 Tengo pendiente limpiar código encapsulando todavia más en clases para aligerar el código
+
+Tengo también pendiente realizar un desarollo funcional del app pero solo cuando lo de por acabado a nivel de código
 
 
 
