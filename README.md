@@ -82,8 +82,8 @@ Tengo pendiente limpiar código encapsulando todavia más en clases para aligera
 
 Tengo también pendiente realizar un desarollo funcional del app pero solo cuando lo de por acabado a nivel de código
 
-Lo que comento en el 1er parrafo sobre el diagnostico de una base de datos MS Access tambien iba a incluir la opción de hacerlo sobre una base de datos SQL Server.
-He optado por incluirlo en una futura app.(que tengo a medio desarrollada)
+Tengo pendiente decidir si incluir un diagnostico sobre base de datos SQL Server al igual que el comento en el 1er parrafo. Empece a desarrollarlo en otro app anterior a este por lo que no tengo claro si agregarlo al app de control de versiones que presento aqui o al anterior.
+
 
 
 
