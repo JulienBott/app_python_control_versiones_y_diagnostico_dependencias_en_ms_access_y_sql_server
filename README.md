@@ -23,7 +23,7 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
           * En BBDD_01 pero no en BBDD_02
           * En BBDD_02 pero no en BBDD_01
       
-2. Tras seleccionar el tipo de objeto y el tipo de concepto, se localizan los objetos asociados y al selecionar cada uno se muestra en la misma pantalla los scripts de las 2 bases de datos marcando de color verde aquellas lineas de código que son nuevas o ya existentes pero con cambios.
+2. Tras seleccionar el tipo de objeto y el tipo de concepto, se localizan los objetos asociados y al seleccionar cada uno se muestra en la misma pantalla los scripts de las 2 bases de datos marcando de color verde aquellas lineas de código que son nuevas o ya existentes pero con cambios.
       
 3. El app permite también realizar el MERGE de una base de datos a otra de forma manual y automatica:
    * __Manual__: para los objetos incluidos en "Objetos ya existentes en las 2 BBDD's" se pueden traspasar lineas de código de un script a otro, revertir cambios o guardar
