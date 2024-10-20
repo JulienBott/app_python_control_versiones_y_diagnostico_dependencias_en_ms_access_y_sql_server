@@ -31,16 +31,15 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
     * desplazar lineas de código de un script a otro (marcandolas de color naranja para guardar trazabilidad de los cambios)
     * revertir los cambios en caso de cometer errores
       
-3. El app permite aplicar los cambios en las BBDD fisicas sean MS Access o SQL Server.
-   Al pulsar en la opción aparece otra interfaz que permite seleccionar que objetos se van a migrar
+3. El app permite aplicar los cambios en las BBDD fisicas sean MS Access o SQL Server. Al pulsar en la opción aparece otra interfaz que permite seleccionar que objetos se van a migrar.
+   
+   En una ruta que el usuario indique se genera documentación del proceso de MERGE indicando que objetos afecta y para cada uno que se ha cambiado.
    
    * __MS ACCESS__: los módulos VBA se modifican con los cambios aportados (los cambios que se hagan en los formularios como añadir widgets es una tarea que no hace el app por lo que esta parte es manual)
      
    * __SQL SERVER__: se crean en la bbdd MERGE las tablas, vistas, funciones y views (se crean nuevos esquemas en caso que la bbdd NO_MERGE tenga alguno que la bbdd MERGE no tenga)
   
-  En una ruta que el usuario indique se genera documentación del proceso de MERGE indicando que objetos afecta y para cada uno que se ha cambiado.
-
-4. Por último, el app permite acceder a un historico de cambios por fecha y usuario (es un sistema en SQLite)
+5. Por último, el app permite acceder a un historico de cambios por fecha y usuario (es un sistema en SQLite)
 
 ## __DEMO__
 
@@ -56,7 +55,9 @@ __MS Access__:
 
 __SQL Server__: 
   * La conexión esta configurada por Windows Authentication.
-    Para cambiarla, ir a la variable __conn_str_sql_server__ (fila 39) del módulo APP_CONTROL_VERSIONES_2_GENERAL_POO
+    Para cambiarla, ir a la variable __conn_str_sql_server__ (fila 39) del módulo __APP_CONTROL_VERSIONES_2_GENERAL_POO__
+
+  * Para cambiar la lista de los servidores ir al módulo __APP_CONTROL_VERSIONES_2_GENERAL_POO__ a la variable __lista_GUI_sql_server_servidor__ (fila 41)
 
 
 ## __REQUISITOS LIBRERIAS PYTHON__
