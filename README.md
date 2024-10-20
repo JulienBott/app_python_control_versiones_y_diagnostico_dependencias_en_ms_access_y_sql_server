@@ -24,12 +24,22 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
           * En BBDD_02 pero no en BBDD_01
       
 2. Tras seleccionar el tipo de objeto y el tipo de concepto, se localizan los objetos asociados y al seleccionar cada uno se muestra en la misma pantalla los scripts de las 2 bases de datos marcando de color verde aquellas lineas de código que son nuevas o ya existentes pero con cambios.
+
+    En la misma interfaz esta habilitada la posibilidad de hacer MERGE de un script a otro:
+    * migrando por completo los scripts que no figuran en la bbdd donde se quiere hacer el merge
+    * quitando por completo los scripts que no interesa que sigan en la bbdd donde se quiere hacer el merge
+    * desplazar lineas de código de un script a otro (marcandolas de color naranja para guardar trazabilidad de los cambios)
+    * revertir los cambios por si se 
       
-3. El app permite también realizar el MERGE de una base de datos a otra de forma manual y automatica:
+3. El app permite también aplicar los cambios en las BBDD fisicas sean MS Access o SQL Server. Al pulsar en la opción aparece otra interfaz que permite seleccionar que objetos se van a migrar
+4. 
+   * __MS ACCESS__: 
+
+
    * __Manual__: para los objetos incluidos en "Objetos ya existentes en las 2 BBDD's" se pueden traspasar lineas de código de un script a otro, revertir cambios o guardar
    * __Automatica__: para los objetos que NO figuran en la base de datos donde se hace el merge pero que no figuren en esta última
       
-5. Por último, al validar el MERGE se crea en una ruta que el usuario indique documentación del proceso de MERGE indicando que objetos afecta y para cada uno que se ha cambiado.
+6. Por último, al validar el MERGE se crea en una ruta que el usuario indique documentación del proceso de MERGE indicando que objetos afecta y para cada uno que se ha cambiado.
 
 
 ## __DEMO__
