@@ -16,7 +16,7 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
           
           * variables públicas MS Access VBA de los distintos módulos de la base de datos
         
-          * objetos SQL Server (tablas, stored procedures o views)
+          * objetos SQL Server (tablas, stored procedures, funciones o views)
             
       * __Conceptos__
           * Objetos ya existentes en las 2 BBDD's
@@ -29,18 +29,18 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
     * migrando por completo los scripts que no figuran en la bbdd donde se quiere hacer el merge
     * quitando por completo los scripts que no interesa que sigan en la bbdd donde se quiere hacer el merge
     * desplazar lineas de código de un script a otro (marcandolas de color naranja para guardar trazabilidad de los cambios)
-    * revertir los cambios por si se 
+    * revertir los cambios en caso de cometer errores
       
-3. El app permite también aplicar los cambios en las BBDD fisicas sean MS Access o SQL Server. Al pulsar en la opción aparece otra interfaz que permite seleccionar que objetos se van a migrar
-4. 
-   * __MS ACCESS__: 
+3. El app permite aplicar los cambios en las BBDD fisicas sean MS Access o SQL Server.
+   Al pulsar en la opción aparece otra interfaz que permite seleccionar que objetos se van a migrar
+   
+   * __MS ACCESS__: los módulos VBA se modifican con los cambios aportados (los cambios que se hagan en los formularios como añadir widgets es una tarea que no hace el app por lo que esta parte es manual)
+     
+   * __SQL SERVER__: se crean en la bbdd MERGE las tablas, vistas, funciones y views (se crean nuevos esquemas en caso que la bbdd NO_MERGE tenga alguno que la bbdd MERGE no tenga)
+  
+  En una ruta que el usuario indique se genera documentación del proceso de MERGE indicando que objetos afecta y para cada uno que se ha cambiado.
 
-
-   * __Manual__: para los objetos incluidos en "Objetos ya existentes en las 2 BBDD's" se pueden traspasar lineas de código de un script a otro, revertir cambios o guardar
-   * __Automatica__: para los objetos que NO figuran en la base de datos donde se hace el merge pero que no figuren en esta última
-      
-6. Por último, al validar el MERGE se crea en una ruta que el usuario indique documentación del proceso de MERGE indicando que objetos afecta y para cada uno que se ha cambiado.
-
+4. Por último, el app permite acceder a un historico de cambios por fecha y usuario (es un sistema en SQLite)
 
 ## __DEMO__
 
@@ -52,7 +52,6 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
 
 __MS Access__:
   * deshabilitar los password VBA de los MS Access que se vayan a usar
-    
   * deshabilitar la macro AutoExec si existiese (cambiadole el nombre de forma temporal por ejemplo)
 
 __SQL Server__: 
@@ -62,12 +61,29 @@ __SQL Server__:
 
 ## __REQUISITOS LIBRERIAS PYTHON__
 
-    thread6                   0.2.0
-    pandas                    1.5.0
+Librerias que requieren instalación (pip install):
+
     numpy                     1.22.0
-    pyodbc                    4.0.32
-    xlwings                   0.27.15
+    pandas                    1.5.0
     pyinstaller               4.7
+    pyodbc                    4.0.32
+    thread6                   0.2.0
+    xlwings                   0.27.15
+
+Librerias nativas Python:
+
+    datetime
+    difflib
+    import warnings
+    os
+    pathlib
+    re
+    sqlite3
+    sys
+    tkinter
+    win32com.client
+
+El app se ha desarrollado con la versión 3.9.5 de Python.
 
 ## __ORGANIZACIÓN DEL PROYECTO__
 
@@ -85,8 +101,6 @@ El app necesita 3 templates para su correcto funcionamiento que se han de integr
   * __ruta_plantilla_control_versiones_xls__: plantilla excel para poder descargar todos los objetos con cambios
       
 ## FASE DEL PROYECTO (actualizado a 2024-10-18)
-
-Los puntos 3 y 4 que figuran en la descripción estan en desarrollo (espero tenerlos a lo largo de la semana que viene)
 
 Tengo pendiente limpiar código encapsulando todavia más en clases para aligerar el código
 
