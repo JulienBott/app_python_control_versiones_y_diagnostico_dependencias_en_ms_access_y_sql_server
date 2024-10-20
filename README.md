@@ -75,13 +75,13 @@ Librerias nativas Python:
 
     datetime
     difflib
-    import warnings
     os
     pathlib
     re
     sqlite3
     sys
     tkinter
+    warnings
     win32com.client
 
 El app se ha desarrollado con la versión 3.9.5 de Python.
