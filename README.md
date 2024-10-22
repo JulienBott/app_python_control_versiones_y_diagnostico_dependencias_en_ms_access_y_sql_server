@@ -1,7 +1,12 @@
 
 ## __DESCRIPCIÓN__:
 
-Este aplicativo desarrollado en Python permite realizar control de versiones de código VBA entre 2 bases de datos MS Access y también de código T-SQL entre 2 bases de datos SQL Server (pueden estar en servidores distintos). Adicionalmente, ofrece un diagnóstico de bases de datos MS Access, generando un informe en Excel que detalla dónde se usan las tablas, rutinas VBA y variables públicas VBA e identifica los objetos que no son utilizados en ninguna rutina VBA.
+Este aplicativo desarrollado en Python permite realizar control de versiones de código VBA entre 2 bases de datos MS Access y también de código T-SQL entre 2 bases de datos SQL Server (pueden estar en servidores distintos). 
+
+Adicionalmente, ofrece un diagnóstico de bases de datos MS Access o de un servidor SQL Server:
+  * __MS Access__: genera un informe en Excel que detalla dónde se usan las tablas, rutinas VBA y variables públicas VBA e identifica los objetos que no son utilizados en ninguna rutina VBA.
+
+  * __SQL Server__: genera el mismo tipo de informe en Excel con la opción de poder seleccionar varias bbdd para localizar sus dependencias (da también la posibilidad de descargar todos los scripts de stored procedures, vies y funciones en ficheros .sql en la ruta que indique el usuario).
 
 El aplicativo es una alternativa humilde a herramientas de control de versiones que requieren licencias de pago, especialmente en entornos empresariales.
 
