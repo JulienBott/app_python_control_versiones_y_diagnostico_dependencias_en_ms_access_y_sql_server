@@ -105,8 +105,9 @@ El proyecto se organiza en 4 módulos .py (ver carpeta codigo):
 
 El app necesita 3 templates para su correcto funcionamiento que se han de integrar en el ejecutable cuando se compile (ver carpeta templates):
   * __ico_app__: fichero .ico
-  * __ruta_plantilla_diagnostico_xls__: plantilla excel para el diagnostico de una base de datos MS Access
   * __ruta_plantilla_control_versiones_xls__: plantilla excel para poder descargar todos los objetos con cambios
+  * __ruta_plantilla_diagnostico_access_xls__: plantilla excel para el diagnostico de una base de datos MS Access
+  * __ruta_plantilla_diagnostico_sql_server_xls__: plantilla excel para el diagnostico de un servidor SQL Server
 
 ## CONSIDERACIONES SOBRE LA OPCIÓN DIAGNOSTICO SERVIDOR SQL SERVER
 
