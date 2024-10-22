@@ -62,6 +62,8 @@ __SQL Server__:
 
 ## __REQUISITOS LIBRERIAS PYTHON__
 
+El app se ha desarrollado y probado en entorno Windows (10) usando la versión 3.9.5 de Python
+
 Librerias que requieren instalación (pip install):
 
     numpy                     1.22.0
@@ -84,8 +86,6 @@ Librerias nativas Python:
     warnings
     win32com.client
 
-El app se ha desarrollado con la versión 3.9.5 de Python.
-
 ## __ORGANIZACIÓN DEL PROYECTO__
 
 El proyecto se organiza en 3 módulos .py (ver carpeta codigo):
@@ -100,6 +100,16 @@ El app necesita 3 templates para su correcto funcionamiento que se han de integr
   * __ico_app__: fichero .ico
   * __ruta_plantilla_diagnostico_xls__: plantilla excel para el diagnostico de una base de datos MS Access
   * __ruta_plantilla_control_versiones_xls__: plantilla excel para poder descargar todos los objetos con cambios
+
+## CONSIDERACIONES SOBRE LA OPCIÓN DIAGNOSTICO SERVIDOR SQL SERVER
+
+En el app existe la posibilidad de realizar un diagnostico de un servidor SQL Server.
+Inicialmente esto iba a ser otro app pero opte por incorporarlo también aqui puesto que ya ofrezco la posibilidad de hacer lo mismo con bbdd MS Access.
+
+Por si interesa separarlo de este app para montar uno propio, he aislado el código en un unco módulo __APP_CONTROL_VERSIONES_4_DIAGNOSTICO_SQL_SERVER__
+sin dependencias de variables globales como la connecting string puesto que la declaro de nuevo en este módulo.
+
+Al final del script he encapsulado una mini interfaz despues de la sentencia __if __name__ == "__main__":__por si interesa no compilarlo en ejecutable y ejecutarlo desde la consola.
       
 ## FASE DEL PROYECTO (actualizado a 2024-10-18)
 
