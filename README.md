@@ -108,7 +108,7 @@ El app necesita 3 templates para su correcto funcionamiento que se han de integr
 En el app existe la posibilidad de realizar un diagnostico de un servidor SQL Server.
 Inicialmente esto iba a ser otro app pero opte por incorporarlo también aqui puesto que ya ofrezco la posibilidad de hacer lo mismo con bbdd MS Access.
 
-Por si interesa separarlo de este app para montar uno propio, he aislado el código en un unco módulo __APP_CONTROL_VERSIONES_4_DIAGNOSTICO_SQL_SERVER__
+Por si interesa separarlo de este app para montar uno propio, he aislado el código en un unico módulo __APP_CONTROL_VERSIONES_4_DIAGNOSTICO_SQL_SERVER__
 sin dependencias de variables globales como la connecting string puesto que la declaro de nuevo en este módulo.
 
 Al final del script he encapsulado una mini interfaz despues de la sentencia __if __name__ == "__main__":__por si interesa no compilarlo en ejecutable y ejecutarlo desde la consola.
