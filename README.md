@@ -6,7 +6,7 @@ Este aplicativo desarrollado en Python permite realizar control de versiones de 
 Adicionalmente, ofrece un diagnóstico de bases de datos MS Access o de un servidor SQL Server:
   * __MS Access__: genera un informe en Excel que detalla dónde se usan las tablas, rutinas VBA y variables públicas VBA e identifica los objetos que no son utilizados en ninguna rutina VBA.
 
-  * __SQL Server__: genera el mismo tipo de informe en Excel con la opción de poder seleccionar varias bbdd para localizar sus dependencias (da también la posibilidad de descargar todos los scripts de stored procedures, vies y funciones en ficheros .sql en la ruta que indique el usuario).
+  * __SQL Server__: genera el mismo tipo de informe en Excel con la opción de poder seleccionar varias bbdd para localizar sus dependencias (da también la posibilidad de descargar todos los scripts de stored procedures, vistas y funciones en ficheros .sql en la ruta que indique el usuario).
 
 El aplicativo es una alternativa humilde a herramientas de control de versiones que requieren licencias de pago, especialmente en entornos empresariales.
 
