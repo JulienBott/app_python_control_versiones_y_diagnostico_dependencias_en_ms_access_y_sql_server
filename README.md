@@ -96,6 +96,8 @@ El proyecto se organiza en 3 módulos .py (ver carpeta codigo):
 
   * __APP_CONTROL_VERSIONES_3_BACK_END__: contiene todas las rutinas back-end del proyecto
 
+  * __APP_CONTROL_VERSIONES_4_DIAGNOSTICO_SQL_SERVER__: contiene todo lo referente al diagnostico de un servidor SQL Server
+
 El app necesita 3 templates para su correcto funcionamiento que se han de integrar en el ejecutable cuando se compile (ver carpeta templates):
   * __ico_app__: fichero .ico
   * __ruta_plantilla_diagnostico_xls__: plantilla excel para el diagnostico de una base de datos MS Access
