@@ -93,7 +93,7 @@ Librerias nativas Python:
 
 ## __ORGANIZACIÓN DEL PROYECTO__
 
-El proyecto se organiza en 3 módulos .py (ver carpeta codigo):
+El proyecto se organiza en 4 módulos .py (ver carpeta codigo):
 
   * __APP_CONTROL_VERSIONES_1_GUI__: contiene la interfaz de usuario con sus distintos widgets y rutinas asociadas
 
