@@ -3,10 +3,7 @@
 
 Este aplicativo desarrollado en Python permite realizar control de versiones de código VBA entre 2 bases de datos MS Access y también de código T-SQL entre 2 bases de datos SQL Server (pueden estar en servidores distintos). 
 
-Adicionalmente, ofrece un diagnóstico de bases de datos MS Access o de un servidor SQL Server:
-  * __MS Access__: genera un informe en Excel que detalla dónde se usan las tablas, rutinas VBA y variables públicas VBA e identifica los objetos que no son utilizados en ninguna rutina VBA.
-
-  * __SQL Server__: genera el mismo tipo de informe en Excel con la opción de poder seleccionar varias bbdd para localizar sus dependencias. Incluye también la posibilidad de descargar todos los scripts de objetos en ficheros .sql en la ruta que indique el usuario.
+Adicionalmente, ofrece un diagnóstico de dependencias de objetos de bases de datos MS Access o de un servidor SQL Server:
 
 El aplicativo es una alternativa humilde a herramientas de control de versiones que requieren licencias de pago, especialmente en entornos empresariales.
 
@@ -45,6 +42,15 @@ El aplicativo es una alternativa humilde a herramientas de control de versiones 
    * __SQL SERVER__: se crean en la bbdd MERGE las tablas, vistas, funciones y views (se crean nuevos esquemas en caso que la bbdd NO_MERGE tenga alguno que la bbdd MERGE no tenga)
   
 5. Por último, el app permite acceder a un historico de cambios por fecha y usuario (es un sistema en SQLite)
+ 
+ 
+ 
+  __Funcionamiento del Diagnostico de dependencias de objetos__
+  
+  * __MS Access__: genera un informe en Excel que detalla dónde se usan las tablas, rutinas VBA y variables públicas VBA e identifica los objetos que no son utilizados en ninguna rutina VBA.
+
+  * __SQL Server__: genera el mismo tipo de informe en Excel con la opción de poder seleccionar varias bbdd para localizar sus dependencias. Incluye también la posibilidad de descargar todos los scripts de objetos en ficheros .sql en la ruta que indique el usuario.
+
 
 ## __DEMO__
 
