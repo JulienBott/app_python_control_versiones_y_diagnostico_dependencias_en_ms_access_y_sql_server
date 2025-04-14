@@ -25,7 +25,7 @@ Nada más acceder al repositorio, se encuentra el README que estas leyendo ahora
 
 El resto del repositorio se divide por subcarpetas:
 
-* __Documentación tecnica__
+* __documentacion_tecnica__
 
     Contiene el diseño funcional del app. Ahi se encuentran 4 ficheros en formato pdf (en realidad es el mismo documento pero por tamaño he tenido que partirlos). Estos ficheros pdf son:
 
@@ -37,7 +37,7 @@ El resto del repositorio se divide por subcarpetas:
  
     * __DF_V1_ANEXOS__PARTE_3__: contiene explicaciones mucho más en detalle del código de algunas rutinas / funciones relacionadas con el proceso de __diagnostico de dependencias__. En la mayoria de los casos se adjuntan ejemplos para ilustrar las explicaciones de los distintos bloques de código.
 
-* __Documentación Otra__
+* __documentacion_otra__
 
   Contiene 2 documentos pdf:
 
@@ -45,7 +45,7 @@ El resto del repositorio se divide por subcarpetas:
     
   * __MANUAL_PARA_COMPILAR_EN_EXE__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta Templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
 
-* __Código__
+* __codigo__
 
   Contiene los 4 módulos de código Python:
 
@@ -54,7 +54,7 @@ El resto del repositorio se divide por subcarpetas:
   * __APP_3_BACK_END_MS_ACCESS__
   * __APP_3_BACK_END_SQL_SERVER__
  
-* __Templates__
+* __templates__
 
   Contiene los archivos que son necesarios para poder ejecutar el app:
   
