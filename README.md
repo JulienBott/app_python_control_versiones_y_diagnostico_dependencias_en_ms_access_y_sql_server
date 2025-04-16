@@ -40,7 +40,7 @@ El resto del repositorio se divide por subcarpetas:
 
   * __GUIA_USUARIO_V1__: es la guia de usuario que explica como operar a base pantallazos de la GUI y algunas que otras explicaciones.
     
-  * __MANUAL_PARA_COMPILAR_EN_EXE__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta Templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
+  * __MANUAL_PARA_COMPILAR_EN_EXE__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
 
 * __documentacion_tecnica__
 
