@@ -21,7 +21,7 @@ En el diseño funcional, colgado tambien en el repositorio GitHub, en el apartad
 
 ## __CONTENIDO DEL REPOSITORIO GITHUB__:
 
-Nada más acceder al repositorio, se encuentra el README que estas leyendo ahora mismo acompañado de un contrato MIT Licence donde autorizo cualquier tipo de uso del app y de su código asociado sea a nivel particular o empresarial siempre y cuando se me reconozca la autoria del app. Dicho contrato de MIT Licence tiene clausulas añadidas.
+Nada más acceder al repositorio, se encuentra el README que estas leyendo ahora mismo acompañado de un contrato MIT Licence donde autorizo cualquier tipo de uso del app y de su código asociado sea a nivel particular o empresarial siempre y cuando se me reconozca la autoria original del app. Dicho contrato de MIT Licence tiene clausulas añadidas.
 
 El resto del repositorio se divide por subcarpetas:
 
