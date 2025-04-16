@@ -87,7 +87,7 @@ Librerias que requieren instalación (pip install):
 
 Librerias nativas Python:
 
-![image](https://github.com/user-attachments/assets/98739493-b3c8-4894-b89c-ccfb70216c57)
+![image](https://github.com/user-attachments/assets/dcc35e0d-3720-4505-af8d-be9b12515737)
 
 
 ## FASE DEL PROYECTO (actualizado a 2025-04-12)
