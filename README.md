@@ -90,7 +90,7 @@ Librerias nativas Python:
 ![image](https://github.com/user-attachments/assets/dcc35e0d-3720-4505-af8d-be9b12515737)
 
 
-## FASE DEL PROYECTO (actualizado a 2025-04-12)
+## FASE DEL PROYECTO (actualizado a 2025-04-20)
 
 La versión del app es la 1.0. En el diseño funcional, se enumera una lista de posibles futuros desarrollos.
 
