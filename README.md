@@ -46,7 +46,7 @@ El resto del repositorio se divide por subcarpetas:
 
 * __documentacion_tecnica__
 
-    Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_V1__. y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
+    Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_V1__ y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
 
 * __templates__
 
