@@ -46,15 +46,7 @@ El resto del repositorio se divide por subcarpetas:
 
 * __documentacion_tecnica__
 
-    Contiene el diseño funcional del app. Ahi se encuentran 4 ficheros en formato pdf (en realidad es el mismo documento pero por tamaño he tenido que partirlos). Estos ficheros pdf son:
-
-    * __DF_V1_GUIA_ARQUITECTURA__: se explica aqui la arquitectura, como se estructuran los módulos, como interactuan los distintos objetos entre si (sean clases, rutinas / funciones o variables globales). Para cada proceso que permite ejecutar el app, se explica a nivel de código como se ejecuta el proceso. Se listan tambien las limitaciones del app y tambien se enumera una lista de posibles futuros desarrollos.
- 
-    * __DF_V1_ANEXOS__PARTE_1__: contiene explicaciones mucho más en detalle del código de las rutinas relacionadas con los procesos de importación del código tanto VBA como T-SQL.
- 
-    * __DF_V1_ANEXOS__PARTE_2__: contiene explicaciones mucho más en detalle del código de algunas rutinas / funciones relacionadas con el proceso de __control de versiones y merge en base de datos fisica__. En la mayoria de los casos se adjuntan ejemplos para ilustrar las explicaciones de los distintos bloques de código.
- 
-    * __DF_V1_ANEXOS__PARTE_3__: contiene explicaciones mucho más en detalle del código de algunas rutinas / funciones relacionadas con el proceso de __diagnostico de dependencias__. En la mayoria de los casos se adjuntan ejemplos para ilustrar las explicaciones de los distintos bloques de código.
+    Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_V1__. y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
 
 * __templates__
 
