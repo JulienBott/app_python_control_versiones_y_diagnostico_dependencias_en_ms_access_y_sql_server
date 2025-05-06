@@ -69,6 +69,9 @@ __MS ACCESS__:
 __SQL SERVER__: 
   * hay que configurar la lista de los servidores deseada en el módulo __APP_3_BACK_END_SQL_SERVER__ en la variable __lista_GUI_sql_server_servidor__ (fila 48).
 
+__EJECUCIÓN DEL APP DESDE LA INTERFAZ DE PROGRAMACIÓN__:
+
+Para ejecutar el app desde la consola de la interfaz de programación que se use hay que guardar en una misma carpeta en el PC los archivos de las carpetas codigo y templates mencionadas en este README. Una vez guardados, hay que ejecutar el módulo APP_1_GUI.py.
 
 ## __REQUISITOS SISTEMA Y LIBRERIAS PYTHON__
 
