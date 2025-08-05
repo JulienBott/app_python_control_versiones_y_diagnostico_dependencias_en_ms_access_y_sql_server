@@ -91,6 +91,27 @@ Librerias nativas Python:
 
 La versión del app es la 1.0. En el diseño funcional, se enumera una lista de posibles futuros desarrollos.
 
+## Mejoras en desarrollo (actualizado a 2025-08-05)
+
+*Fecha estimada de implementación*: *__a lo largo de agosto 2025.__*
+
+__Refactorización de la interfaz gráfica__:
+se está desarrollando una arquitectura basada en herencia de clases, donde los distintos componentes de la GUI en Tkinter derivan de una clase base común (que estara en un módulo .py aparte).
+
+Este enfoque orientado a objetos permitirá:
+
+  * Mayor reutilización de código.
+
+  * Configuración dinámica de widgets.
+
+  * Integración modular de nuevos elementos gráficos.
+
+ __Soporte de configuración vía JSON__:
+se incorporará la configuración de atributos, estilos y comportamientos de los widgets a través de un archivo .json, facilitando la personalización y el mantenimiento sin necesidad de modificar el código fuente.
+
+__Proyecto independiente en GitHub__:
+este nuevo sistema de gestión de interfaces se publicará, asimismo, como un repositorio separado, que irá creciendo de forma progresiva.
+Además de Tkinter, se prevé el soporte para otras librerías gráficas y funcionales de Python mediante jerarquías de clases estructuradas.
 
 
 
