@@ -7,7 +7,7 @@ En ambos entornos de bases de datos:
 
   * localiza para los mismos scripts presentes en cada base de dato las lineas de código donde hay diferencias, las marca de un color. Tambien localiza los scripts que tan solo estan en una de las dos bases de datos.
     
-  * el usuario tiene la posbilidad de realizar de forma sencilla y agil migraciones de lineas de código de un script de una base datos a otra.
+  * el usuario tiene la posibilidad de realizar de forma sencilla y agil migraciones de lineas de código de un script de una base datos a otra.
     
   * el usuario tambien puede ejecutar el merge en base de datos fisica, documentar el proceso y acceder a logs en caso de errores de migración que detallen el porque de los fallos, también genera logs para los objetos migrados correctamente.
 
@@ -93,7 +93,7 @@ La versión del app es la 1.0. En el diseño funcional, se enumera una lista de 
 
 ## Mejoras en desarrollo (actualizado a 2025-08-05)
 
-*Fecha estimada de implementación*: *__a lo largo de agosto 2025.__*
+*Fecha estimada de implementación*: *__1era quincena septiembre 2025.__*
 
 __Refactorización de la interfaz gráfica__:
 se está desarrollando una arquitectura basada en herencia de clases, donde los distintos componentes de la GUI en Tkinter derivan de una clase base común (que estara en un módulo .py aparte).
