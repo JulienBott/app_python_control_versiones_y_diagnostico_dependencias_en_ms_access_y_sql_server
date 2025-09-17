@@ -93,7 +93,7 @@ La versión del app es la 1.0. En el diseño funcional, se enumera una lista de 
 
 ## Mejoras en desarrollo (actualizado a 2025-08-05)
 
-*Fecha estimada de implementación*: *__1era quincena septiembre 2025.__*
+*Fecha estimada de implementación*: inicialmente previsto para *__la 1era quincena septiembre 2025.__* pero debido a problemas personales transcurridos en el mes de septiembre se reporta unas semanas.
 
 __Refactorización de la interfaz gráfica__:
 se está desarrollando una arquitectura basada en herencia de clases, donde los distintos componentes de la GUI en Tkinter derivan de una clase base común (que estara en un módulo .py aparte).
