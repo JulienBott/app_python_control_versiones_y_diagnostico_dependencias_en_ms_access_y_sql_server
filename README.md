@@ -113,6 +113,19 @@ __Proyecto independiente en GitHub__:
 este nuevo sistema de gestión de interfaces se publicará, asimismo, como un repositorio separado, que irá creciendo de forma progresiva.
 Además de Tkinter, se prevé el soporte para otras librerías gráficas y funcionales de Python mediante jerarquías de clases estructuradas.
 
+## Mejoras en desarrollo (actualizado a 2025-11-29)
+
+El proyecto de refactorización de la GUI (basado en una arquitectura de clases para Tkinter) __no está abandonado__; simplemente queda __pospuesto temporalmente__ mientras concentro mis esfuerzos en otro desarrollo actualmente prioritario, que será publicado en GitHub en los próximos meses.
+
+El plan previsto se mantiene sin cambios:
+
+* Arquitectura orientada a objetos, donde todos los componentes gráficos derivan de una clase base común.
+* Configuración dinámica mediante kwargs, con soporte adicional para cargar atributos y estilos desde archivos .json.
+
+__Publicación como repositorio independiente__
+
+Esta refactorización se liberará como un proyecto separado en GitHub. Su desarrollo se retomará en breve, ya que esta arquitectura formará parte del nuevo proyecto en el que estoy trabajando actualmente (aunque inicialmente no en la versión completamente definitiva que tenía planificada).
+
 
 
 
