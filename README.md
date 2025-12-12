@@ -126,6 +126,14 @@ __Publicación como repositorio independiente__
 
 Esta refactorización se liberará como un proyecto separado en GitHub. Su desarrollo se retomará en breve, ya que esta arquitectura formará parte del nuevo proyecto en el que estoy trabajando actualmente (aunque inicialmente no en la versión completamente definitiva que tenía planificada).
 
+## Mejoras en desarrollo (actualizado a 2025-12-12)
+
+El proyecto de refactorización de la GUI basado en una arquitectura de clases para Tkinter queda **abandonado**. Mi intención es replicar, en el futuro, la arquitectura en la que tenia pensada para **tkinter** pero utilizando **PyQt** (sin fecha prevista).
+
+Actualmente estoy trabajando en un **mini-proyecto** que será publicado en los próximos días. Este proyecto sirve como retorno a mis desarrollos personales tras varios meses de parón por motivos personales, y como preparación para proyectos más ambiciosos, mencionados en el update del 2025-11-29.
+
+La refactorización completa de la GUI queda pospuesta indefinidamente.
+
 
 
 
