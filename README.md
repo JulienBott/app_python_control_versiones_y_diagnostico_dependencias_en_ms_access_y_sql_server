@@ -126,13 +126,18 @@ __Publicación como repositorio independiente__
 
 Esta refactorización se liberará como un proyecto separado en GitHub. Su desarrollo se retomará en breve, ya que esta arquitectura formará parte del nuevo proyecto en el que estoy trabajando actualmente (aunque inicialmente no en la versión completamente definitiva que tenía planificada).
 
-## Mejoras en desarrollo (actualizado a 2025-12-12)
+## Mejoras en desarrollo (actualizado a 2025-12-17)
 
-El proyecto de refactorización de la GUI basado en una arquitectura de clases para Tkinter queda **abandonado**. Mi intención es replicar, en el futuro, la arquitectura en la que tenia pensada para **tkinter** pero utilizando **PyQt** (sin fecha prevista).
+El proyecto de refactorización de la GUI basado en una arquitectura de clases para Tkinter queda **no esta abandonado** tal como lo comunique hace unos dias. Se realizara y publicara a finales de diciembre 2025.
 
-Actualmente estoy trabajando en un **mini-proyecto** que será publicado en los próximos días. Este proyecto sirve como retorno a mis desarrollos personales tras varios meses de parón por motivos personales, y como preparación para proyectos más ambiciosos, mencionados en el update del 2025-11-29.
+Eso si, sera una versión muy simplificada de lo comunicado en **Mejoras en desarrollo (actualizado a 2025-08-05)**, donde tan solo pondre lo estricamente necesario para que la GUI funcione y se genere dinamicamente usando kwargs
+(vendra con un mini-manual de como se han de configurar)
 
-La refactorización completa de la GUI queda pospuesta indefinidamente.
+Actualmente estoy trabajando en un **mini-proyecto** que será publicado en los próximos días, donde uso esta refactorización de la GUI basado en una arquitectura de clases para Tkinter.
+Este proyecto sirve como retorno a mis desarrollos personales tras varios meses de parón por motivos personales, y como preparación para proyectos más ambiciosos, mencionados en el update del 2025-11-29.
+
+Mi intención es replicar, en el futuro, la arquitectura en la que tenia pensada para **tkinter** pero utilizando **PyQt** (sin fecha prevista).
+
 
 
 
