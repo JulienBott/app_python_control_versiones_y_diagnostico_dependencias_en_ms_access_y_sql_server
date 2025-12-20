@@ -128,7 +128,7 @@ Esta refactorización se liberará como un proyecto separado en GitHub. Su desar
 
 ## Mejoras en desarrollo (actualizado a 2025-12-17)
 
-El proyecto de refactorización de la GUI basado en una arquitectura de clases para Tkinter **no esta abandonado** tal como lo comunique hace unos dias. Se realizara y publicara a finales de diciembre 2025.
+El proyecto de refactorización de la GUI basado en una arquitectura de clases para Tkinter **no esta abandonado** tal como lo comunique hace unos dias. Se realizara y publicare la semana del 29/12/2025 (lunes o martes).
 
 Eso si, sera una versión muy simplificada de lo comunicado en **Mejoras en desarrollo (actualizado a 2025-08-05)**, donde tan solo pondre lo estricamente necesario para que la GUI funcione y se genere dinamicamente usando kwargs
 (vendra con un mini-manual de como se han de configurar)
