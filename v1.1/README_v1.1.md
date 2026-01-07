@@ -92,12 +92,11 @@ El app se ha desarrollado y probado en entorno Windows (10) usando la versión 3
 
 Librerias que requieren instalación (pip install):
 
-<img width="161" height="152" alt="image" src="https://github.com/user-attachments/assets/a9ac5173-f5c9-4541-aba3-3776c5d65cc4" />
+<img width="161" height="133" alt="image" src="https://github.com/user-attachments/assets/b1d9c35a-09d5-445f-ac71-8bb30d6deaa5" />
 
 Librerias nativas Python:
 
-<img width="111" height="372" alt="image" src="https://github.com/user-attachments/assets/2ad846bd-4e4b-439d-a760-3437b06b3522" />
-
+<img width="95" height="369" alt="image" src="https://github.com/user-attachments/assets/2695c2b4-135e-49e1-95fe-6ddeb788c17d" />
 
 ## FASE DEL PROYECTO (actualizado a 2026-01-07)
 
