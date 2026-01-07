@@ -40,7 +40,7 @@ El resto del repositorio se divide por subcarpetas:
 
 * __documentacion_otra__
 
-  Contiene 2 documentos pdf:
+  Contiene 4 documentos pdf:
 
   * __GUIA_USUARIO_v1.1__: es la guia de usuario que explica como operar a base pantallazos de la GUI y algunas que otras explicaciones.
     
