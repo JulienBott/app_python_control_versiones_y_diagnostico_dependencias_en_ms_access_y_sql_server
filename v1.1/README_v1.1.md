@@ -46,6 +46,11 @@ El resto del repositorio se divide por subcarpetas:
     
   * __MANUAL_PARA_COMPILAR_EN_EXE_v1.1__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
 
+   * __MANUAL_PARA_USAR_SISTEMA_CLASES_TKINTER__: es un manual que ayuda a configurar los kwargs con el sistema de herencias de clases tkinter para poder usarlo en otros proyectos.
+ 
+  * __EJEMPLOS_SISTEMA_CLASES_TKINTER__: es el archivo .py usado en el manual comentado anteriormente que sirve de ejemplo para configurar una GUI usando este sistema.
+
+
 * __documentacion_tecnica__
 
     Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_v1.1__ y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
