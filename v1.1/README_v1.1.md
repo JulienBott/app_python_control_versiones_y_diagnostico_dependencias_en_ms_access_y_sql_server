@@ -107,6 +107,12 @@ Librerias nativas Python:
 
 No me planteo retomar el proyecto a medio-largo plazo para implementar los futuros (posibles) desarollos comentados en el diseño funcional.
 
+Queda pendiente subir los documentos siguientes (en los próximos dias):
+* __DISEÑO_FUNCIONAL_v1.1__
+* __MANUAL_PARA_USAR_SISTEMA_CLASES_TKINTER__
+* __EJEMPLOS_SISTEMA_CLASES_TKINTER__
+
+
 
 
 
