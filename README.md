@@ -30,7 +30,7 @@ El resto del repositorio se divide por subcarpetas:
 * *__v1.0__*
 
    Corresponde a la __versión 1.0__ publicada el 20/04/2025.
-  La subcarpeta contiene nada más accederel documento __README_v1.0__ que explica el contenido de la subcarpeta.
+  La subcarpeta contiene nada más acceder el documento __README_v1.0__ que explica el contenido de la subcarpeta.
 
 * *__v1.1__*
 
