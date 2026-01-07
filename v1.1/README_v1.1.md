@@ -30,7 +30,7 @@ El resto del repositorio se divide por subcarpetas:
 
 * __codigo__
 
-  Contiene los 4 módulos de código Python:
+  Contiene los 5 módulos de código Python:
 
   * __APP_1_GUI__
   * __APP_2_GUI_UTILS__
