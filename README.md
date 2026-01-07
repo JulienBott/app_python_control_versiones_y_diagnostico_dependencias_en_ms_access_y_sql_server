@@ -27,128 +27,22 @@ Nada más acceder al repositorio, se encuentra el README que estas leyendo ahora
 
 El resto del repositorio se divide por subcarpetas:
 
-* __codigo__
+* *__v1.0__*
 
-  Contiene los 4 módulos de código Python:
+   Corresponde a la __versión 1.0__ publicada el 20/04/2025.
+  La subcarpeta contiene nada más accederel documento __README_v1.0__ que explica el contenido de la subcarpeta.
 
-  * __APP_1_GUI__
-  * __APP_2_GENERAL__
-  * __APP_3_BACK_END_MS_ACCESS__
-  * __APP_3_BACK_END_SQL_SERVER__
+* *__v1.1__*
 
-* __documentacion_otra__
+   Corresponde a la __versión 1.1__ publicada el 07/01/2026.
+  La subcarpeta contiene nada más acceder el documento __README_v1.1__ que explica el contenido de la subcarpeta.
 
-  Contiene 2 documentos pdf:
+  Esta versión corresponde a una refactorización de la versión anterior de la GUI basada en herencias de clases tkinter para poder configurarla dinamicamente mediante el uso de kwargs.
+  Asimismo, se han hecho pequeños ajustes de sintaxis en el back-end que no afectan las funcionalidades ya desarrolladas en la versión anterior.
 
-  * __GUIA_USUARIO_V1__: es la guia de usuario que explica como operar a base pantallazos de la GUI y algunas que otras explicaciones.
-    
-  * __MANUAL_PARA_COMPILAR_EN_EXE__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
+  El desarrollo está __finalizado y testeado__ y el código está disponible en el repositorio Github.
 
-* __documentacion_tecnica__
-
-    Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_V1__ y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
-
-* __templates__
-
-  Contiene los archivos que son necesarios para poder ejecutar el app:
+  Tareas pendientes (que se actualizarán en los próximos dias):
   
-  * __ico_app__: fichero .ico
-  * __PLANTILLA_CONTROL_VERSIONES__: plantilla excel para poder descargar todos los objetos con cambios
-  * __PLANTILLA_DIAGNOSTICO_MS_ACCESS__: plantilla excel para el diagnostico de una base de datos MS Access
-  * __PLANTILLA_DIAGNOSTICO_SQL_SERVER__: plantilla excel para el diagnostico de un servidor SQL Server
-
-  Contiene, asimismo, el fichero __APP_1_GUI.spec__ que se ha de usar para poder compilar el app en .exe (ver el manual __MANUAL_PARA_COMPILAR_EN_EXE__)
-
-  
-## __REQUISITOS FUNCIONAMIENTO DEL APP__
-
-__MS ACCESS__:
-  * deshabilitar los password VBA de los MS ACCESS que se vayan a usar.
-  * deshabilitar la macro AutoExec si existiese (cambiadole el nombre de forma temporal por ejemplo).
-
-__SQL SERVER__: 
-  * hay que configurar la lista de los servidores deseada en el módulo __APP_3_BACK_END_SQL_SERVER__ en la variable __lista_GUI_sql_server_servidor__ (fila 48).
-
-__EJECUCIÓN DEL APP DESDE LA INTERFAZ DE PROGRAMACIÓN__:
-
-Para ejecutar el app desde la consola de la interfaz de programación que se use hay que guardar en una misma carpeta en el PC los archivos de las carpetas codigo y templates mencionadas en este README. Una vez guardados, hay que ejecutar el módulo APP_1_GUI.py.
-
-## __REQUISITOS SISTEMA Y LIBRERIAS PYTHON__
-
-El app se ha desarrollado y probado en entorno Windows (10) usando la versión 3.9.5 de Python. No se ha probado con otros sistemas operativos por lo que podria haber errores.
-
-Librerias que requieren instalación (pip install):
-
-![image](https://github.com/user-attachments/assets/cb4ba9c1-2c59-4b5f-a28b-b6071087ae9f)
-
-
-Librerias nativas Python:
-
-![image](https://github.com/user-attachments/assets/dcc35e0d-3720-4505-af8d-be9b12515737)
-
-
-## FASE DEL PROYECTO (actualizado a 2025-04-20)
-
-La versión del app es la 1.0. En el diseño funcional, se enumera una lista de posibles futuros desarrollos.
-
-## Mejoras en desarrollo (actualizado a 2025-08-05)
-
-*Fecha estimada de implementación*: __sin previsión__.
-
-__Refactorización de la interfaz gráfica__:
-se está desarrollando una arquitectura basada en herencia de clases, donde los distintos componentes de la GUI en Tkinter derivan de una clase base común (que estara en un módulo .py aparte).
-
-Este enfoque orientado a objetos permitirá:
-
-  * Mayor reutilización de código.
-
-  * Configuración dinámica de widgets.
-
-  * Integración modular de nuevos elementos gráficos.
-
- __Soporte de configuración vía JSON__:
-se incorporará la configuración de atributos, estilos y comportamientos de los widgets a través de un archivo .json, facilitando la personalización y el mantenimiento sin necesidad de modificar el código fuente.
-
-__Proyecto independiente en GitHub__:
-este nuevo sistema de gestión de interfaces se publicará, asimismo, como un repositorio separado, que irá creciendo de forma progresiva.
-Además de Tkinter, se prevé el soporte para otras librerías gráficas y funcionales de Python mediante jerarquías de clases estructuradas.
-
-## Mejoras en desarrollo (actualizado a 2025-11-29)
-
-El proyecto de refactorización de la GUI (basado en una arquitectura de clases para Tkinter) __no está abandonado__; simplemente queda __pospuesto temporalmente__ mientras concentro mis esfuerzos en otro desarrollo actualmente prioritario, que será publicado en GitHub en los próximos meses.
-
-El plan previsto se mantiene sin cambios:
-
-* Arquitectura orientada a objetos, donde todos los componentes gráficos derivan de una clase base común.
-* Configuración dinámica mediante kwargs, con soporte adicional para cargar atributos y estilos desde archivos .json.
-
-__Publicación como repositorio independiente__
-
-Esta refactorización se liberará como un proyecto separado en GitHub. Su desarrollo se retomará en breve, ya que esta arquitectura formará parte del nuevo proyecto en el que estoy trabajando actualmente (aunque inicialmente no en la versión completamente definitiva que tenía planificada).
-
-## Mejoras en desarrollo (actualizado a 2026-01-04)
-
-El proyecto de refactorización de la GUI, basado en una arquitectura de clases para Tkinter, **está acabado y testeado**.  
-Actualmente solo falta adaptar la documentación (guía de usuario y diseño funcional).
-
-La publicación completa se realizará esta semana como la **versión 1.1**.
-
-Esta nueva versión del aplicativo incluirá además un manual sobre cómo configurar los kwargs, pensado para quienes deseen reutilizar esta arquitectura de clases en sus propios proyectos.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  * *__Adaptación del diseño funcional.__*
+  * *__Manual para usar el sistema de herencias de clases de tkinter en otros proyectos.__*
