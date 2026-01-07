@@ -40,13 +40,13 @@ El resto del repositorio se divide por subcarpetas:
 
   Contiene 2 documentos pdf:
 
-  * __GUIA_USUARIO_V1__: es la guia de usuario que explica como operar a base pantallazos de la GUI y algunas que otras explicaciones.
+  * __GUIA_USUARIO_v1.0__: es la guia de usuario que explica como operar a base pantallazos de la GUI y algunas que otras explicaciones.
     
-  * __MANUAL_PARA_COMPILAR_EN_EXE__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
+  * __MANUAL_PARA_COMPILAR_EN_EXE_v1.0__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
 
 * __documentacion_tecnica__
 
-    Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_V1__ y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
+    Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_v1.0__ y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
 
 * __templates__
 
