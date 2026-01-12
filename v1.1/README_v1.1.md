@@ -37,23 +37,32 @@ El resto del repositorio se divide por subcarpetas:
   * __APP_3_GENERAL__
   * __APP_4_BACK_END_MS_ACCESS__
   * __APP_5_BACK_END_SQL_SERVER__
+ 
+* __documentacion_herencia_clases_tkinter__
+
+  Contiene 5 documentos:
+
+  * __MANUAL_PARA_USAR_SISTEMA_CLASES_TKINTER_v1.1__: es un manual que explica brevemente el sistema de herencias de clases tkinter y en el cual se se entra muy en detalle de como usarlo en otros proyectos mediante ejemplos documentados.
+    
+  * __UTILS_v1.1__: es el fichero .py con el sistema de herencias de clases.
+
+  * __EJEMPLO_USO_v1.1__: es el archivo .py usado en el manual comentado anteriormente que sirve de ejemplo para configurar una GUI usando este sistema.
+
+  * __ico_tapar_pluma_tkinter__: es un archivo .ico que se usa en el módulo .py de ejemplos.
+
+  * __png_para_boton__: es un archivo .png que se usa en el módulo .py de ejemplos.
+
 
 * __documentacion_otra__
-
-  Contiene 4 documentos pdf:
-
-  * __GUIA_USUARIO_v1.1__: es la guia de usuario que explica como operar a base pantallazos de la GUI y algunas que otras explicaciones.
     
-  * __MANUAL_PARA_COMPILAR_EN_EXE_v1.1__: es un manual para compilar el código del app junto con sus templates (ver subcarpeta templates) en archivo .exe para poder usar el app sin necesidad de tener Python instalado en el PC en el que se use.
-
-   * __MANUAL_PARA_USAR_SISTEMA_CLASES_TKINTER__: es un manual que ayuda a configurar los kwargs con el sistema de herencias de clases tkinter para poder usarlo en otros proyectos.
- 
-  * __EJEMPLOS_SISTEMA_CLASES_TKINTER__: es el archivo .py usado en el manual comentado anteriormente que sirve de ejemplo para configurar una GUI usando este sistema.
+   Ahi se encuentra un unico fichero llamado __GUIA_USUARIO_v1.1__ y contiene la guia de usuario que explica como operar a base pantallazos además de otras explicaciones.
 
 
 * __documentacion_tecnica__
 
     Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_v1.1__ y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
+
+   PENDIENTE DE ACTUALIZAR (en los próximos dias, usar temporalmente el documento colgado en la v1.0)
 
 * __templates__
 
@@ -97,7 +106,7 @@ El app se ha desarrollado y probado en entorno Windows (10) usando la versión 3
 
 Librerias que requieren instalación (pip install):
 
-<img width="154" height="149" alt="image" src="https://github.com/user-attachments/assets/f06e285f-29cd-4280-911e-fd160fb76293" />
+<img width="161" height="173" alt="image" src="https://github.com/user-attachments/assets/89525d30-495b-490f-8885-bd54653a5752" />
 
 
 Librerias nativas Python:
