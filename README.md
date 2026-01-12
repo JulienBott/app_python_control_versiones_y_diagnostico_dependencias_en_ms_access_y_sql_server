@@ -27,12 +27,12 @@ Nada más acceder al repositorio, se encuentra el README que estas leyendo ahora
 
 El resto del repositorio se divide por subcarpetas:
 
-* *__v1.0__*
+   ## *__v1.0__*
 
    Corresponde a la __versión 1.0__ publicada el 20/04/2025.
   La subcarpeta contiene nada más acceder el documento __README_v1.0__ que explica el contenido de la subcarpeta.
 
-* *__v1.1__*
+   ## *__v1.1__*
 
    Corresponde a la versión 1.1, publicada inicialmente el 07/01/2026.
    La subcarpeta contiene, al acceder, el documento README_v1.1, donde se explica en detalle el contenido y organización de esta versión.
@@ -46,32 +46,34 @@ El resto del repositorio se divide por subcarpetas:
 
    __Actualización 07/01/2026__
 
-     Estado inicial de la versión 1.1 tras su publicación.
+   Estado inicial de la versión 1.1 tras su publicación.
      
-     Tareas pendientes (en curso):
+   Tareas pendientes (en curso):
      
-     * __Adaptación del diseño funcional__
-     * __Manual para el uso del sistema de herencias de clases de Tkinter en otros proyectos__
+   * Adaptación del diseño funcional__
+   * Manual para el uso del sistema de herencias de clases de Tkinter en otros proyectos
 
 
-   __Actualización 12/01/2026__
 
-    Aunque la versión publicada sigue siendo la v1.1, se han realizado pequeñas modificaciones adicionales en el front-end para mejorar y ampliar el sistema de herencias de clases de la GUI.
-    Estas modificaciones no alteran el comportamiento funcional del aplicativo.
+
+  __Actualización 12/01/2026__
+
+  Aunque la versión publicada sigue siendo la v1.1, se han realizado pequeñas modificaciones adicionales en el front-end para mejorar y ampliar el sistema de herencias de clases de la GUI.
+  Estas modificaciones no alteran el comportamiento funcional del aplicativo.
 
   Módulos afectados:
 
-     * __APP_1_GUI__ (pequeños cambios)
-     * __APP_2_GUI_UTILS__ (pequeños cambios)
-     * __APP_3_GENERAL__ (sin cambios)
-     * __APP_4_BACK_END_MS_ACCESS__ (sin cambios)
-     * __APP_5_BACK_END_SQL_SERVER__ (sin cambios)
+  * __APP_1_GUI__ (pequeños cambios)
+  * __APP_2_GUI_UTILS__ (pequeños cambios)
+  * __APP_3_GENERAL__ (sin cambios)
+  * __APP_4_BACK_END_MS_ACCESS__ (sin cambios)
+  * __APP_5_BACK_END_SQL_SERVER__ (sin cambios)
 
    La subcarpeta contiene, al acceder, el documento README_v1.1, donde se detalla el contenido de esta versión.
    
-   Además, ya se encuentra disponible el manual técnico que explica cómo utilizar el sistema de herencias de clases de Tkinter en otros proyectos, acompañado de un fichero .py con ejemplos prácticos.
+   Además, ya se encuentra __disponible el manual técnico que explica cómo utilizar el sistema de herencias de clases de Tkinter en otros proyectos__, acompañado de un fichero .py con ejemplos prácticos.
    
    Tareas pendientes:
 
-     * __Adaptación del diseño funcional__
+   * __Adaptación del diseño funcional__
      (mientras tanto, utilizar el diseño funcional publicado en la versión 1.0).
