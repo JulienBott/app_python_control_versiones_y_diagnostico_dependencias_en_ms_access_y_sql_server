@@ -34,15 +34,44 @@ El resto del repositorio se divide por subcarpetas:
 
 * *__v1.1__*
 
-   Corresponde a la __versión 1.1__ publicada el 07/01/2026.
-  La subcarpeta contiene nada más acceder el documento __README_v1.1__ que explica el contenido de la subcarpeta.
+   Corresponde a la versión 1.1, publicada inicialmente el 07/01/2026.
+   La subcarpeta contiene, al acceder, el documento README_v1.1, donde se explica en detalle el contenido y organización de esta versión.
+   
+   Esta versión corresponde a una refactorización completa de la GUI respecto a la versión anterior, basada en un sistema de herencias de clases en Tkinter, que permite su configuración dinámica mediante el uso de kwargs.
+   
+   Asimismo, se han realizado ajustes menores de sintaxis en el back-end, que no afectan a las funcionalidades existentes respecto a la versión 1.0.
+   
+   El desarrollo está finalizado y testeado, y el código se encuentra disponible en este repositorio de GitHub.
 
-  Esta versión corresponde a una refactorización de la versión anterior de la GUI basada en herencias de clases tkinter para poder configurarla dinamicamente mediante el uso de kwargs.
-  Asimismo, se han hecho pequeños ajustes de sintaxis en el back-end que no afectan las funcionalidades ya desarrolladas en la versión anterior.
 
-  El desarrollo está __finalizado y testeado__ y el código está disponible en el repositorio Github.
+   __Actualización 07/01/2026__
 
-  Tareas pendientes (que se actualizarán en los próximos dias):
-  
-  * *__Adaptación del diseño funcional.__*
-  * *__Manual para usar el sistema de herencias de clases de tkinter en otros proyectos.__*
+     Estado inicial de la versión 1.1 tras su publicación.
+     
+     Tareas pendientes (en curso):
+     
+     * __Adaptación del diseño funcional__
+     * __Manual para el uso del sistema de herencias de clases de Tkinter en otros proyectos__
+
+
+   __Actualización 12/01/2026__
+
+    Aunque la versión publicada sigue siendo la v1.1, se han realizado pequeñas modificaciones adicionales en el front-end para mejorar y ampliar el sistema de herencias de clases de la GUI.
+    Estas modificaciones no alteran el comportamiento funcional del aplicativo.
+
+  Módulos afectados:
+
+     * __APP_1_GUI__ (pequeños cambios)
+     * __APP_2_GUI_UTILS__ (pequeños cambios)
+     * __APP_3_GENERAL__ (sin cambios)
+     * __APP_4_BACK_END_MS_ACCESS__ (sin cambios)
+     * __APP_5_BACK_END_SQL_SERVER__ (sin cambios)
+
+   La subcarpeta contiene, al acceder, el documento README_v1.1, donde se detalla el contenido de esta versión.
+   
+   Además, ya se encuentra disponible el manual técnico que explica cómo utilizar el sistema de herencias de clases de Tkinter en otros proyectos, acompañado de un fichero .py con ejemplos prácticos.
+   
+   Tareas pendientes:
+
+     * __Adaptación del diseño funcional__
+     (mientras tanto, utilizar el diseño funcional publicado en la versión 1.0).
