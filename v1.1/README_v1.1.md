@@ -112,14 +112,7 @@ Librerias nativas Python:
 
 <img width="95" height="369" alt="image" src="https://github.com/user-attachments/assets/2695c2b4-135e-49e1-95fe-6ddeb788c17d" />
 
-## FASE DEL PROYECTO (actualizado a 2026-01-07)
 
-No me planteo retomar el proyecto a medio-largo plazo para implementar los futuros (posibles) desarollos comentados en el diseño funcional.
-
-Queda pendiente subir los documentos siguientes (en los próximos dias):
-* __DISEÑO_FUNCIONAL_v1.1__
-* __MANUAL_PARA_USAR_SISTEMA_CLASES_TKINTER__
-* __EJEMPLOS_SISTEMA_CLASES_TKINTER__
 
 
 
