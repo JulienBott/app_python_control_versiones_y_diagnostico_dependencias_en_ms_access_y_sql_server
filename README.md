@@ -51,7 +51,7 @@ El resto del repositorio se divide por subcarpetas:
    Tareas pendientes (en curso):
      
    * Adaptación del diseño funcional__
-   * Manual para el uso del sistema de herencias de clases de Tkinter en otros proyectos
+   * Manual para el uso del sistema de herencias de clases de Tkinter en otros proyectos  
 
 
 
@@ -73,7 +73,34 @@ El resto del repositorio se divide por subcarpetas:
    
    Además, ya se encuentra __disponible el manual técnico que explica cómo utilizar el sistema de herencias de clases de Tkinter en otros proyectos__, acompañado de un fichero .py con ejemplos prácticos.
    
-   Tareas pendientes:
+   Tareas pendientes: __adaptación del diseño funcional__ (mientras tanto, utilizar el diseño funcional publicado en la versión 1.0).  
+   
+   
 
-   * __Adaptación del diseño funcional__
-     (mientras tanto, utilizar el diseño funcional publicado en la versión 1.0).
+
+__Actualización 19/01/2026__  
+
+El Diseño Funcional publicado con __la versión 1.0 sigue siendo plenamente válido para la versión 1.1__ por lo que se incorpora tal cual en la v1.1.
+La versión 1.1 tan solo introduce una refactorización técnica de la GUI basada en un sistema de herencias de clases de tkinter, sin impacto en la lógica del back-end, flujos funcionales ni comportamiento del aplicativo.
+
+El sistema de herencias de clases de tkinter comentado en el parrafo anterior se publica asismismo como __repositorio independiente en Github (tkinter_utils / v1.0)__ que ira creciendo a medida que pase el tiempo:
+
+https://github.com/JulienBott/python_tools_modulares.git
+
+Este sistema ya se implemento en la actualización del 12/01/2026. No obstante, __se han incorporado desde entonces nuevos widgets personalizados y pequeñas mejoras__ por lo que el contenido de la carpeta v1.1 tiene cambios (consultar README_v1.1).
+
+Con la publicación del Diseño Funcional y la incorporación de tkinter_utis, __el proyecto se considera funcionalmente cerrado__ en su versión 1.1.
+
+Durante los próximos meses mi foco estará puesto en otros desarrollos personales, que también se publicarán en GitHub.
+
+No obstante, no descarto retomar el proyecto a medio-largo plazo. Una posible evolución futura del proyecto pasaría por una escisión funcional:
+
+  * __MS Access__
+    
+    Mantener la herramienta separada de las funcionalidades SQL, con posibles mejoras puntuales (por ejemplo, optimizaciones o limpiezas de código VBA no utilizado).
+
+  * __SQL Server__
+    
+    Aislar las funcionalidades SQL Server en un aplicativo separado donde se centraria el esfuerzo en evolucionar la herramienta hacia un sistema de diagnóstico global, ampliando el análisis de dependencias ya existente con representaciones más avanzadas (árboles genealógicos de objetos etc) con el fin de facilitar auditorías técnicas y planes de migración a otros proveedores SQL.
+
+    Seria también extensible a otros proveedores SQL (Oracle, MySQL, Snowflake, etc).
