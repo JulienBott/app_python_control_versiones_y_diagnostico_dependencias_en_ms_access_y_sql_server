@@ -40,16 +40,17 @@ El resto del repositorio se divide por subcarpetas:
  
 * __documentacion_herencia_clases_tkinter__
 
-  Contiene 5 documentos:
+  Contiene los 3 documentos correspondientes a la v1.0 de mi otro proyecto Github (tkinter_utils / v1.0):
 
-  * __MANUAL_PARA_USAR_SISTEMA_CLASES_TKINTER_v1.1__: es un manual que explica brevemente el sistema de herencias de clases tkinter y en el cual se se entra muy en detalle de como usarlo en otros proyectos mediante ejemplos documentados.
-    
-  * __UTILS_v1.1__: es el fichero .py con el sistema de herencias de clases.
+  https://github.com/JulienBott/python_tools_modulares.git
 
-  * __EJEMPLO_USO_v1.1__: es el archivo .py usado en el manual comentado anteriormente que sirve de ejemplo para configurar una GUI usando este sistema.
 
+  * __tkinter_utils_v1_0__: fichero .py que contiene el sistema que se ha de incorporar en los proyectos Python donde se quiera usar.
+  * __EJEMPLO_USO_tkinter_utils_v1_0__: fichero .py con los ejemplos que se documentan en el manual que se comenta a continuación.
+  * __MANUAL_tkinter_utils_v1_0__: fichero pdf que explica el sistema y lo ilustra con ejemplos documentados de como implementarlo en otros proyectos.
+
+  Se adjuntan asismismo 2 archivos para que funcionen los ejemplos:
   * __ico_tapar_pluma_tkinter__: es un archivo .ico que se usa en el módulo .py de ejemplos.
-
   * __png_para_boton__: es un archivo .png que se usa en el módulo .py de ejemplos.
 
 
@@ -61,8 +62,6 @@ El resto del repositorio se divide por subcarpetas:
 * __documentacion_tecnica__
 
     Ahi se encuentra un unico fichero llamado __DISEÑO_FUNCIONAL_v1.1__ y contiene el diseño funcional del app donde se explica la arquitectura usada y se entra también muy en detalle del código complementandolo con ejemplos para entender su alcance..
-
-   PENDIENTE DE ACTUALIZAR (en los próximos dias, usar temporalmente el documento colgado en la v1.0)
 
 * __templates__
 
