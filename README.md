@@ -13,13 +13,56 @@ En ambos entornos de bases de datos:
 
 Adicionalmente, ofrece un __diagnóstico de dependencias de objetos__ de bases de datos MS ACCESS o de una o varias bases de datos de un mismo servidor SQL SERVER. Permite para cada objeto localizar en que scripts de otros objetos se usan (excluye de la busqueda de dependencias los comentarios dentro del código para focalizarse solo en código activo). Asimismo, localiza aquellos objetos que no dependen de ningún otro. El output final es un fichero Excel para que sea más agil y flexible para el usuario realizar sus analisis. En el caso de SQL Server, da la posibilidad tambien de descargar todo los códigos de objetos de bases de datos en ficheros .sql.
 
+El cálculo del __diagnóstico de dependencias de objetos__ no es una busqueda en plan "contiene", es mucho más afinada. Se realiza entrando ___muy en detalle según las particularidades de los lenguajes VBA y T-SQL___ (ver anexos 8 a 12 en el diseño funcional colgado tambien en el repositorio GitHub).
+
 Para __MS ACCESS__, los tipos de objeto se han limitado a las tablas, vinculos ODBC, vinculos hacia otras fuentes externas, variables públicas VBA y rutinas / funciones VBA. 
 
 Para __SQL SERVER__, los objetos se han limitado a tablas, views, funciones y stored procedures. 
 
-En el diseño funcional, colgado tambien en el repositorio GitHub, en el apartado "Limitaciones del app", se explican los pasos a seguir en caso de querer agregar más tipos de objeto.
+En el diseño funcional, en el apartado "Limitaciones del app", se explican los pasos a seguir en caso de querer agregar más tipos de objeto.
 
 A falta de un video de demostración, ir a la guia de usuario ubicada en la carpeta documentacion_otra para poder ver el proposito del aplicativo.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+__Muestra control de versiones__:
+
+En los scripts localizados con diferencias, estas se marcan de color verde:
+
+<img width="797" height="388" alt="image" src="https://github.com/user-attachments/assets/8d2a04ec-495e-4e9f-a64f-3db65bd49bec" />
+
+
+  
+Eliminación de lineas de código de la BBDD 02:
+
+<img width="742" height="135" alt="image" src="https://github.com/user-attachments/assets/dcb6d6b3-08d8-4961-bf95-bbf895f15a06" />
+
+<img width="1052" height="351" alt="image" src="https://github.com/user-attachments/assets/d54b7c4c-dd25-4890-aa1d-8e24790d47f8" />
+
+
+Migración de lineas de código de la BBDD 01 a la BBDD 02:
+
+<img width="742" height="133" alt="image" src="https://github.com/user-attachments/assets/287203d5-3533-4d7c-86ff-2c9407fdfc0c" />
+
+<img width="1047" height="348" alt="image" src="https://github.com/user-attachments/assets/6563b7ab-17d6-4a2a-a556-f8bad48891f3" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+__Muestra diagnostico de dependencias__:
+
+<img width="310" height="320" alt="image" src="https://github.com/user-attachments/assets/0286db65-0d46-4ad1-92c5-d8a84f14a220" />
+
+<img width="852" height="121" alt="image" src="https://github.com/user-attachments/assets/c02a76a4-0e9a-48a9-89d4-004f9025326d" />
+
+<img width="849" height="105" alt="image" src="https://github.com/user-attachments/assets/11541d6b-bf27-4a41-9af5-6475bf61d18a" />
+
+<img width="851" height="134" alt="image" src="https://github.com/user-attachments/assets/a4ab45c4-d433-4697-8d62-917cf6626c78" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 ## __CONTENIDO DEL REPOSITORIO GITHUB__:
 
