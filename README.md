@@ -25,7 +25,7 @@ A falta de un video de demostración, ir a la guia de usuario ubicada en la carp
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-__Muestra control de versiones__:
+## __Muestra control de versiones__:
 
 En los scripts localizados con diferencias, estas se marcan de color verde:
 
@@ -47,7 +47,7 @@ Migración de lineas de código de la BBDD 01 a la BBDD 02:
 <img width="1047" height="348" alt="image" src="https://github.com/user-attachments/assets/6563b7ab-17d6-4a2a-a556-f8bad48891f3" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-__Muestra diagnostico de dependencias__:
+## __Muestra diagnostico de dependencias__:
 
 <img width="310" height="320" alt="image" src="https://github.com/user-attachments/assets/0286db65-0d46-4ad1-92c5-d8a84f14a220" />
 
